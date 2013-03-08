@@ -6,12 +6,12 @@ public class Aluno {
     private int idade;
 
     public Aluno(String nome, int idade) {
-        nome = nome;
-        idade = idade;
+        setNome(nome);
+        setIdade(idade);
     }
 
     public String toString() {
-        return "Nome: " + getNome() + "Idade: " + getIdade();
+        return "Nome: " + getNome() + "\nIdade: " + getIdade();
     }
 
     public String getNome() {
