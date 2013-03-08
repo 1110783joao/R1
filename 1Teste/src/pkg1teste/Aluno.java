@@ -4,10 +4,12 @@ public class Aluno {
 
     private String nome;
     private int idade;
+    private Escola escola;
 
-    public Aluno(String nome, int idade) {
+    public Aluno(String nome, int idade, Escola escola) {
         nome = nome;
         idade = idade;
+        this.escola=escola;
     }
 
     public String toString() {
