@@ -13,7 +13,7 @@ public class Aluno {
     }
     
     public String toString() {
-        return "Nome: " + getNome() + "\nIdade: " + getIdade() + escola;
+        return "Nome: " + getNome() + "\nIdade: " + getIdade() + "\nAnda na " + escola;
     }
 
     public String getNome() {

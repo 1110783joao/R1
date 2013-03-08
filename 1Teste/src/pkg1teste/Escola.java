@@ -25,6 +25,6 @@ public class Escola {
     }
     
     public String toString() {
-        return "Nome: " + getNome() + "\nNumero de salas: " + getNumSalas();
+        return getNome() + "\ncom " + getNumSalas() + " salas";
     }
 }
