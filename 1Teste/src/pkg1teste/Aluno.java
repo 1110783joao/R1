@@ -7,13 +7,13 @@ public class Aluno {
     private Escola escola;
 
     public Aluno(String nome, int idade, Escola escola) {
-        nome = nome;
-        idade = idade;
+        setNome(nome);
+        setIdade(idade);
         this.escola=escola;
     }
-
+    
     public String toString() {
-        return "Nome: " + getNome() + "Idade: " + getIdade();
+        return "Nome: " + getNome() + "\nIdade: " + getIdade();
     }
 
     public String getNome() {
