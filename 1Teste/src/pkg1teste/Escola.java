@@ -24,4 +24,7 @@ public class Escola {
         this.numSalas = numSalas;
     }
     
+    public String toString() {
+        return "Nome: " + getNome() + "\nNumero de salas: " + getNumSalas();
+    }
 }
